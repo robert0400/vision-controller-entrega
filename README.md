@@ -1,5 +1,3 @@
-# vision-controller-entrega
-
 #  UFVision Controller - Pouso Autônomo com ROS 2 e YOLOv8
 
 Este pacote contém o  controle para pouso autônomo de precisão utilizando ROS 2 e YOLOv8.
@@ -21,7 +19,7 @@ Os arquivos deste repositório são organizados e distribuídos automaticamente 
 ## Instalação 
 1. Clone este repositório dentro da pasta `src` do seu Workspace ROS 2:
 cd ~/ros2_ws/src
-git clone <https://github.com/robert0400/vision-controller-entrega.git> ufvision_controller
+git clone <LINK_DO_SEU_REPOSITORIO> ufvision_controller
 
 2. Execute o script de configuração automática (ele moverá os arquivos para as pastas corretas e compilará o workspace):
 cd ~/ros2_ws/src/ufvision_controller
@@ -45,12 +43,8 @@ Com a instalação concluída, para iniciar todo o ambiente de simulação (Gaze
 
 python3 ~/ros2_ws/run_autonomo.py
 
-./QGroundControl.AppImage
-
-ou abrir o QGroundControl.AppImage atraves da ISO
-
 ###  Controle de Missão via TMUX
 Ao executar o comando acima, a interface TMUX será aberta com as opções:
 * **Painel da Câmera (Menu 1):** Digite `1` para abrir a janela OpenCV e visualizar as detecções do YOLOv8 em tempo real.
-* **Painel da Missão (Menu 2):** Digite `3` e insira o alvo desejado (ex: `triangulo`, etc.) para iniciar a decolagem, mapeamento e o pouso autônomo.
+* **Painel da Missão (Menu 2):** Digite `3` e insira o alvo desejado (ex: `1` para círculo, `triangulo`, etc.) para iniciar a decolagem, mapeamento e o pouso autônomo.
 *
