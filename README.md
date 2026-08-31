@@ -44,7 +44,10 @@ fvision_controller/missions/autonomus_landing_mission.py --> ~/ros2_ws/src/ufvis
 Com a instalação concluída, para iniciar todo o ambiente de simulação (Gazebo, PX4 SITL, MAVROS, ROS-Gazebo Bridge e a interface TMUX) basta executar o comando abaixo na raiz do seu workspace:
 
 python3 ~/ros2_ws/run_autonomo.py
-./QGroundControl.AppImage ou abrir o QGroundControl.AppImage atraves da ISO
+
+./QGroundControl.AppImage
+
+ou abrir o QGroundControl.AppImage atraves da ISO
 
 ###  Controle de Missão via TMUX
 Ao executar o comando acima, a interface TMUX será aberta com as opções:
