@@ -4,6 +4,7 @@ O projeto foi feito em ros2 jazzy e o gazebo,alem do PX4 e a biblioteca yolov8
 O run_autonomo.py é o gerenciador das sessoes do tmux que inicializa todos ambientes exceto qgcontrol,e o mission.launch.py é o gerenciador dos nós.
 no nó da missao é enviado setpoints para a interface do PX4 para garantir um lop de controle fechado
 
+A arquitetura de execução foi projetada para ser direta (standalone script). Em vez de exigir a compilação de um pacote ROS 2 tradicional via colcon build, a lógica de controle (autonomus_landing_mission.py) utiliza a biblioteca rclpy para comunicação MAVROS/PX4 de forma standalone, sendo orquestrada e inicializada diretamente pelo script mestre run_autonomo.py via TMUX.
 
 
 METODO DE IDENTIFICAÇÂO DE FIGURAS
