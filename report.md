@@ -1,4 +1,4 @@
-Arquitetura do software
+ARQUITETURA DO SOFTWARE
 
 O projeto foi feito em ros2 jazzy e o gazebo,alem do PX4 e a biblioteca yolov8
 O run_autonomo.py é o gerenciador das sessoes do tmux que inicializa todos ambientes exceto qgcontrol,e o mission.launch.py é o gerenciador dos nós.
